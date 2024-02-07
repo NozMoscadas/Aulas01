@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">,
+    <script>
+        document.addEventListener("deviceready", onDeviceReady, false);
+        function onDeviceReady() {
+            console.log("Monaca is ready");
+        }
+        function captarNome(){
+        var Nome
+        Nome= document.getElementById('vlNome').value
+        alert(Nome)
+        }
+    </script>
+</head>
+<body>
+    <h1>Bengas pink✨SHINE✨!</h1>
+    <a class="button--large" href="demo.html">Buy your BENGA</a>
+    <input type="text" placeholder="Insira seu nome" id="vlNome">
+    <input type="button" value="Clicar" onclick="captarNome()">
+    <h1 id="nmUsuário"><h1>
+</body>
+</html>
